@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+import logo from './digger-logo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="App-logo-container">
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
+        <h3>
+          Congratulations! You have deployed a service on Digger
+        </h3>
+        <h4 className="App-link">
+          This is the default output of our sample webapp
+        </h4>
       </header>
     </div>
   );
